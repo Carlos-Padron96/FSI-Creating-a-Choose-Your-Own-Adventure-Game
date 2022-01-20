@@ -13,13 +13,23 @@ if(thirdAnswer === 'spread the word'){
     let fourthAnswer = window.prompt(`After leaving the cat colony, 
     you are never able to find it again; without proof, 
     no one believes your story, which passes into legend nonetheless.`)
+if(thirdAnswer === 'stay'){
+    let fourthAnswer = window.prompt(`You live happily amongst the cats for the rest of your days.`)
+            }
         }
     }
-}if(thirdAnswer === 'stay'){
-    let fourthAnswer = window.prompt(`You live happily amongst the cats for the rest of your days.`)
-}if(firstAnswer === 'right') {
+}    
+else if(firstAnswer === 'right'){
     let secondAnswer = window.prompt(`You come across a snoring dragon. 
 On the other side of him, you see a shiny chest of treasure. Another path would 
 lead you away from the dragon altogether. Which path do you take?`)
-
+if(secondAnswer === 'treasure'){
+    let thirdAnswer = window.prompt (`You trip over a piece of treasure,
+    waking the dragon!
+    causing the dragon to breathe fire on you and ending your adventure`)
+if(secondAnswer === 'another path'){
+    let thirdAnswer = window.prompt (`You find a larger pile of treasure that is left unguarded, 
+    You grab all that you can carry and leave the cave a very rich sorcerer`)
+        }
+    }
 }
